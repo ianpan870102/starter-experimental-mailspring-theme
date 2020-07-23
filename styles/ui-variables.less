@@ -11,42 +11,59 @@ https://github.com/Foundry376/Mailspring/blob/master/app/static/base/ui-variable
 @gray-light: darken(@gray-base, 46.7%);
 @gray-lighter: darken(@gray-base, 92.5%);
 @white: #0a0a0a;
-
-@accent-primary: #58b660;
-@accent-primary-dark: darken(@accent-primary, 10%);
-
-@background-primary: #212121;
-@background-off-primary: #212121;
-@background-secondary: #121212;
+@accent-primary: #b3d6f2;
+@accent-primary-dark: #b3d6f2;
+@background-primary: #2f2f2f;
+@background-off-primary: #262626;
+@background-secondary: #1e1e1e;
 @background-tertiary: #6d7987;
-
 @border-color-primary: lighten(@background-primary, 10%);
 @border-color-secondary: lighten(@background-secondary, 10%);
 @border-color-tertiary: lighten(@background-tertiary, 10%);
 @border-color-divider: @border-color-secondary;
-
-@text-color: #eee;
+@text-color: #eeeeee;
 @text-color-subtle: fadeout(@text-color, 20%);
 @text-color-very-subtle: fadeout(@text-color, 40%);
-@text-color-inverse: white;
+@text-color-inverse: #eeeeee;
 @text-color-inverse-subtle: fadeout(@text-color-inverse, 20%);
 @text-color-inverse-very-subtle: fadeout(@text-color-inverse, 50%);
-@text-color-heading: #fff;
-
+@text-color-heading: #ffffff;
 @text-color-link: @accent-primary;
 @text-color-link-hover: @accent-primary-dark;
 @text-color-link-active: @accent-primary-dark;
-
 @btn-default-bg-color: lighten(@background-primary, 5%);
-@dropdown-default-bg-color: #404040;
-
-@input-bg: #2e2e2e;
+@dropdown-default-bg-color: #333333;
+@input-bg: #2f2f2f;
 @input-border: @border-color-divider;
-
 @list-bg: #333;
 @list-border: #383838;
 @list-selected-color: @text-color-inverse;
 @list-focused-color: @text-color;
+@toolbar-background-color: #262626;
+@panel-background-color: #262626;
 
-@toolbar-background-color: #121212;
-@panel-background-color: #121212;
+//------------------------------------------------------------------
+
+
+// windows 10 theme
+@sidebar: #262626;
+@accent: #b3d6f2;
+@accent-alt: #69afe5;
+@accent-primary: @accent;
+@threadlist-bg: #333333;
+@threadlist-bg-hover: #3f3f3f;
+@threadlist-bg-focused: #4f4f4f;
+@messagelist-bg: tint(@sidebar, 95%);
+@active-thread-text: @sidebar;
+@sidebar-text: #eeeeee;
+@active-sidebar-text: @accent;
+@border-color: #000000;
+@label-bg: #f7d757;
+@danger: #ff5f56;
+@minimize: #fbd852;
+@maximize: #8dd07d;
+@swipe-archive: #8dd07d;
+@swipe-snooze: #fbd852;
+@swipe-trash: @danger;
+@invalid: @danger;
+@sidebar-margin: 20px;
