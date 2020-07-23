@@ -1,10 +1,10 @@
 {
-  "name": "experimental-starter",
-  "title": "Starter Experimental Theme",
-  "displayName": "Starter Experimental Theme",
+  "name": "windows-10-mail",
+  "title": "Windows 10 Mail Theme",
+  "displayName": "Windows 10 Mail Theme",
   "theme": "ui",
   "version": "0.1.0",
-  "description": "A great dark theme to start your own themes.",
+  "description": "A dark theme inspired by the dark look and feel of Microsoft's Windows 10 Mail app.",
   "license": "MIT",
   "engines": {
     "mailspring": "*"
