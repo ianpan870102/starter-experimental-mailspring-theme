@@ -22,11 +22,6 @@ img.content-light {
   -webkit-filter: invert(100%);
 }
 
-.mail-label {
-  background: @label-bg !important;
-  color: black !important;
-  // -webkit-filter: contrast(110%) brightness(85%);
-}
 
 #message-list .message-item-wrap .message-item-white-wrap {
   box-shadow: 0 0 0.5px rgba(255, 255, 255, 0.28), 0 1px 1.5px rgba(255, 255, 255, 0.08);
@@ -115,4 +110,21 @@ body.is-blurred .list-tabular .list-tabular-item.keyboard-cursor {
 .scrollbar-track .scrollbar-handle {
   background-color: #777777;
   border: #777777;
+}
+
+
+//-------------------------------------------------------------------
+// Mail label (e.g. inbox badge)
+.mail-label {
+  background: @label-bg !important;
+  color: black !important;
+}
+
+.thread-list .focused .mail-label,
+.draft-list .focused .mail-label,
+.thread-list.handler-split .list-item.selected .mail-label {
+  background: @label-bg !important;
+  color: black !important;
+  box-shadow: none !important;
+  -webkit-filter: none !important;
 }
